@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+}
+
+body{
+    background-image: url('../imgs/bg.jpg');
+    background-size: 100% 100%;
+
+}
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    min-height: 100vh;
+}
+.myform{
+    width: auto;
+    height: fit-content;
+    padding: 35px;
+    background: #dedede;
+    border-radius: 20px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+
